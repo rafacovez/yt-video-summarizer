@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# Allow specific files/folders
+!api/
+!requirements.txt
+!Dockerfile
+!.env
+!.env.production
+
+# Exclude development and cache files
+.git/
+.gitignore
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
